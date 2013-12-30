@@ -105,6 +105,9 @@ void getGpsDistance()
   dist = frskyData.hub.distFromEarthAxis * angle / 1000000;
   result += dist*dist;
 
+#if defined(PCBTARANIS)
+  frskyData.hub.gpsHDistance = isqrt32(result);
+#endif
   dist = abs(frskyData.hub.baroAltitudeOffset ? TELEMETRY_ALT_BP : TELEMETRY_GPS_ALT_BP);
   result += dist*dist;
 

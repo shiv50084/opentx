@@ -75,7 +75,10 @@ PACK(struct FrskySerialData {
     uint16_t volts;            // 0x06   1/500V increments (0..4.2V)
     uint32_t distFromEarthAxis;//        2 spares reused
     int16_t  gpsAltitude_ap;   // 0x01+8 after punct
-    uint16_t spare2[6];
+    uint32_t gpsHDistance;     //        2 spares reused
+    uint16_t analog3;          // spare reused
+    uint16_t analog4;          // spare reused
+    uint16_t spare2[2];
     int16_t  baroAltitude_bp;  // 0x10   0..9,999 meters
     uint16_t gpsSpeed_bp;      // 0x11   before punct
     uint16_t gpsLongitude_bp;  // 0x12   before punct

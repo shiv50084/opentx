@@ -117,6 +117,10 @@
 #define GPS_COURS_LAST_ID       0x084f
 #define GPS_TIME_DATE_FIRST_ID  0x0850
 #define GPS_TIME_DATE_LAST_ID   0x085f
+#define ADC3_ID_FIRST_ID        0x0900
+#define ADC3_ID_LAST_ID         0x090f
+#define ADC4_ID_FIRST_ID        0x0910
+#define ADC4_ID_LAST_ID         0x091f
 
 // FrSky wrong IDs ?
 #define BETA_VARIO_ID      0x8030
@@ -503,6 +507,10 @@ void processSportPacket(uint8_t *packet)
           frskyData.hub.minCellIdx = minCellNum;
           frskyData.hub.minCellVolts = minCell;
         }
+      } else if (appId >= ADC3_ID_FIRST_ID && appId <= ADC3_ID_LAST_ID) {
+        frskyData.hub.analog3 = SPORT_DATA_U32(packet);
+      } else if (appId >= ADC4_ID_FIRST_ID && appId <= ADC4_ID_LAST_ID) {
+        frskyData.hub.analog4 = SPORT_DATA_U32(packet);
       }
       break;
 
