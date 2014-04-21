@@ -5703,11 +5703,66 @@ Anzahl Sekunden fest, welche der Mischer für einen Durchgang von -100 bis +100 
         <source>Enable the throttle trace in Statistics</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1053"/>
-        <source>EEprom write progress bar</source>
-        <translation type="unfinished"></translation>
-    </message>
+  <message>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1055"/>
+    <source>EEPROM_PROGRESS_BAR: EEprom write progress bar visiable in upper screen part.
+This visualizes the critical EEPROM writes to increase understanding when not to switch off transmitter.</source>
+    <translation>EEPROM_PROGRESS_BAR: Macht den EEprom Schreibvorgang sichtbar.
+In dieser Phase den Sender nicht ausschalten.</translation>
+  </message>
+  <message>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1064"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1107"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1152"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1193"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1233"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1268"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1282"/>
+    <source>ARITHMETIC_OVERFLOW_CHECK: Adds additional code to prevent arithmetic overflows.
+MAX or MIN values stays. Not yet guaranteed!! Just improved</source>
+    <translation>ARITHMETIC_OVERFLOW_CHECK: Erzeugt zusätzlichen Programmcode um einen arithmetischen Überlauf zu verhindern.
+MAX oder MIN Werte bleiben. Vorsicht, dies ist noch nicht garantiert, nur verbessert!</translation>
+  </message>
+  <message>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1066"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1109"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1154"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1195"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1235"/>
+    <source>ACCURAT_THROTTLE_STATS: Increases resolution for throttle statistics and throttle counting, in very rare cases.
+This will be only true if an output channel is used for throttle calculation, and this chanenel has changed limits,
+e.g. -90% to +80%. If you use standard limits for throttle you do not need this option.</source>
+    <translation>ACCURAT_THROTTLE_STATS: Erhöht die Auflösung für die Gas Statistik in einigen Ausnahmefällen.
+Dies ist dann der Fall, wenn ein Ausgangskanal für die Statistik verwendet wird und die Begrenzung verändert wurde.
+Z.B. -90% bis +80%. Wenn Standardwerte für den Gas Kanal verwendet werden, wird diese Option nicht benötigt.</translation>
+  </message>
+  <message>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1069"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1112"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1157"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1198"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1238"/>
+    <source>PWM_BACKLIGHT: Smoothly increases or reduces backlight.
+Allows you to adjust backlight level in several steps.</source>
+    <translation>PWM_BACKLIGHT: Erhöht oder Verringert sanft das Hintergrundlicht.
+Erlaubt eine Einstellung des Hintergrundlichts in vielen Helligkeitsstufen.</translation>
+  </message>
+  <message>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1036"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1085"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1128"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1173"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1211"/>
+    <location filename="../firmwares/opentx/opentxinterface.cpp" line="1250"/>
+    <source>TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.
+This fact breaks the throttle and switch warning concept.
+If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.
+This include doesn't break older transmitters, just causes a slight code increase.</source>
+    <translation>TURNIGY_TRANSMITTER_FIX: Die letzten Lieferungen des Turnigy 9x Senders (oder deren Klone ab dem Jahr 2011) senden auch während einer Gas Warnung.
+Diese Veränderung macht das Warnungskonzept von OpenTX zunichte.
+Wenn ein 0 Wert (50%) für den Gaswert empfangen werden, während eine Gaswarnung am Display angezeigt werden, sollte diese Option gewählt werden.
+Diese Option stört bei älteren Sendern nicht, es wird nur mehr Code erzeugt.</translation>
+  </message>  
     <message>
         <location filename="../firmwares/opentx/opentxinterface.cpp" line="1055"/>
         <location filename="../firmwares/opentx/opentxinterface.cpp" line="1122"/>
