@@ -1037,9 +1037,9 @@ void registerOpenTxFirmwares()
   openTx->addOption("voice", QObject::tr("Used if you have modified your radio with voice mode"));
   openTx->addOption("haptic", QObject::tr("Used if you have modified your radio with haptic mode"));
   // NOT TESTED openTx->addOption("PXX", QObject::tr("Support of FrSky PXX protocol"));
-  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
+  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latest deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
      "This fact breaks the throttle and switch warning concept.\n"\
-     "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.\n"\
+     "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this option.\n"\
      "This include doesn't break older transmitters, just causes a slight code increase."));
   openTx->addOption("DSM2", QObject::tr("Support for DSM2 modules"));
   openTx->addOption("ppmca", QObject::tr("PPM center adjustment in limits"));
@@ -1056,7 +1056,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("nobold", QObject::tr("Don't use bold font for highlighting active items"));
   openTx->addOption("sqt5font", QObject::tr("Use alternative SQT5 font"));
   openTx->addOption("thrtrace", QObject::tr("Enable the throttle trace in Statistics"));
-  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visiable in upper screen part.\n"\
+  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visible in upper screen part.\n"\
                     "This visualizes the critical EEPROM writes to increase understanding when not to switch off transmitter."));
   openTx->addOption("imperial", QObject::tr("Imperial units"));
   openTx->addOption("nowshh", QObject::tr("No Winged Shadow How High support"));
@@ -1086,7 +1086,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("voice", QObject::tr("Used if you have modified your radio with voice mode"));
   openTx->addOption("haptic", QObject::tr("Used if you have modified your radio with haptic mode"));
   // NOT TESTED openTx->addOption("PXX", QObject::tr("Support of FrSky PXX protocol"));
-  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
+  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latest deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
      "This fact breaks the throttle and switch warning concept.\n"\
      "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.\n"\
      "This include doesn't break older transmitters, just causes a slight code increase."));
@@ -1105,7 +1105,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("nobold", QObject::tr("Don't use bold font for highlighting active items"));
   openTx->addOption("sqt5font", QObject::tr("Use alternative SQT5 font"));
   openTx->addOption("thrtrace", QObject::tr("Enable the throttle trace in Statistics"));
-  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visiable in upper screen part.\n"\
+  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visible in upper screen part.\n"\
                     "This visualizes the critical EEPROM writes to increase understanding when not to switch off transmitter."));
   openTx->addOption("imperial", QObject::tr("Imperial units"));
   openTx->addOptions(fai_options);
@@ -1130,7 +1130,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("voice", QObject::tr("Used if you have modified your radio with voice mode"));
   openTx->addOption("haptic", QObject::tr("Used if you have modified your radio with haptic mode"));
   // NOT TESTED openTx->addOption("PXX", QObject::tr("Support of FrSky PXX protocol"));
-  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
+  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latest deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
      "This fact breaks the throttle and switch warning concept.\n"\
      "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.\n"\
      "This include doesn't break older transmitters, just causes a slight code increase."));
@@ -1147,7 +1147,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("nobold", QObject::tr("Don't use bold font for highlighting active items"));
   openTx->addOption("sqt5font", QObject::tr("Use alternative SQT5 font"));
   openTx->addOption("thrtrace", QObject::tr("Enable the throttle trace in Statistics"));
-  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visiable in upper screen part.\n"\
+  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visible in upper screen part.\n"\
                     "This visualizes the critical EEPROM writes to increase understanding when not to switch off transmitter."));
   openTx->addOption("imperial", QObject::tr("Imperial units"));
   openTx->addOption("nowshh", QObject::tr("No Winged Shadow How High support"));
@@ -1176,7 +1176,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("voice", QObject::tr("Used if you have modified your radio with voice mode"));
   openTx->addOption("haptic", QObject::tr("Used if you have modified your radio with haptic mode"));
   // NOT TESTED openTx->addOption("PXX", QObject::tr("Support of FrSky PXX protocol"));
-  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
+  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latest deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
      "This fact breaks the throttle and switch warning concept.\n"\
      "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.\n"\
      "This include doesn't break older transmitters, just causes a slight code increase."));
@@ -1193,7 +1193,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("nobold", QObject::tr("Don't use bold font for highlighting active items"));
   openTx->addOption("sqt5font", QObject::tr("Use alternative SQT5 font"));
   openTx->addOption("thrtrace", QObject::tr("Enable the throttle trace in Statistics"));
-  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visiable in upper screen part.\n"\
+  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visible in upper screen part.\n"\
                     "This visualizes the critical EEPROM writes to increase understanding when not to switch off transmitter."));
   openTx->addOption("imperial", QObject::tr("Imperial units"));
   openTx->addOptions(fai_options);
@@ -1215,7 +1215,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("nocurves", QObject::tr("Disable curves menus"));
   openTx->addOption("sdcard", QObject::tr("Support for SD memory card"));
   openTx->addOption("voice", QObject::tr("Used if you have modified your radio with voice mode"));
-  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
+  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latest deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
      "This fact breaks the throttle and switch warning concept.\n"\
      "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.\n"\
      "This include doesn't break older transmitters, just causes a slight code increase."));
@@ -1234,7 +1234,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("battgraph", QObject::tr("Battery graph"));
   openTx->addOption("nobold", QObject::tr("Don't use bold font for highlighting active items"));
   openTx->addOption("sqt5font", QObject::tr("Use alternative SQT5 font"));
-  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visiable in upper screen part.\n"\
+  openTx->addOption("pgbar", QObject::tr("EEPROM_PROGRESS_BAR: EEprom write progress bar visible in upper screen part.\n"\
                     "This visualizes the critical EEPROM writes to increase understanding when not to switch off transmitter."));
   openTx->addOption("imperial", QObject::tr("Imperial units"));
   openTx->addOptions(fai_options);
@@ -1255,7 +1255,7 @@ void registerOpenTxFirmwares()
   openTx->addOption("templates", QObject::tr("Enable TEMPLATES menu"));
   openTx->addOption("nofp", QObject::tr("No flight modes"));
   openTx->addOption("nocurves", QObject::tr("Disable curves menus"));
-  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latests deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
+  openTx->addOption("TurFix", QObject::tr("TURNIGY_TRANSMITTER_FIX: Latest deliveries for Turnigy 9x transmitters (starting 2011) do not stop sending during Throttle Warning.\n"\
      "This fact breaks the throttle and switch warning concept.\n"\
      "If you have a 0 value (50% ) for throttle, while throttle warning is active, you should activate this switch.\n"\
      "This include doesn't break older transmitters, just causes a slight code increase."));
